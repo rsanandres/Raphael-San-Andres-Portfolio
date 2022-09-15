@@ -1,2 +1,7 @@
 
 *.csv
+*.tfrecord-00000-of-00001
+*.json
+*.txt
+*.tfrecord-00000-of-00002
+*.tfrecord-00001-of-00002
