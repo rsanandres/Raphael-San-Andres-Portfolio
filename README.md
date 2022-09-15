@@ -22,7 +22,7 @@ This is my portfolio for side projects that I have completed since graduating fr
 
 Used NBA data from 1979 to 2022 to create Seaborn visualizations and MVP predictions models. Constructed a Logistic Regression model to determine most important statistical predictor of MVPs. Created KNN, Random Forest, and SVM models to create predictions for a season’s MVP.
 
-## 🐦 Sentiment Anlysis Twitter - Queen Elizabeth II's Death
+## 🐦 Sentiment Analysis Twitter - Queen Elizabeth II's Death
 - Python
 - Twitter API
 - Sentiment Analysis 
