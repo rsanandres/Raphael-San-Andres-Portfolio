@@ -10,6 +10,18 @@ My name is Raphael San Andres and I am a recent UCLA graduate where I got a B.S.
 This is my portfolio for side projects that I have completed since graduating from UCLA.
 
 
+## 🧠 [In-Progress] Neural Network for Celebrity Face Classifier (LFW)
+### Progress: ![10%](https://progress-bar.dev/10)
+
+- Python
+- Neural Networks
+- Labeled Faces in the Wild Dataset (LFW)
+- Keras, SKlearn, Numpy, Pandas
+- Computer Vision
+
+
+Creating and modeling a Neural Network in order to create a celebrity classifier using the Labeled Faces in the Wild Dataset. Currently programming the neural network and optimizing the parameters involved including the layers, activation functions, and weights. Future plans include using the model to create a celebrity look-alike application.
+
 
 ## 🏀 NBA MVP Statistical Analysis
 - Python
