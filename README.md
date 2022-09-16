@@ -4,13 +4,26 @@
 
 <br />
 
-## About
+About
+=============================
 
 My name is Raphael San Andres and I am a recent UCLA graduate where I got a B.S. in Statistics. At UCLA, I have had the opportunity to use statistical models to identify trends in data in Python and R as well as present my findings in various visual forms such as PowerPoints, Tableau, and RShiny applets.
 This is my portfolio for side projects that I have completed since graduating from UCLA.
 
 
-## 🧠 [In-Progress] Neural Network for Celebrity Face Classifier (LFW)
+----------------------------------
+
+Contents
+=============================
+
+
+- [In-Progress](#in-progress)
+- [Completed](#completed)
+  
+----------------------------------
+# In-Progress
+
+## 🧠 Neural Network for Celebrity Face Classifier (LFW)
 ### Progress: ![10%](https://progress-bar.dev/10)
 
 - Python
@@ -23,6 +36,8 @@ This is my portfolio for side projects that I have completed since graduating fr
 Creating and modeling a Neural Network in order to create a celebrity classifier using the Labeled Faces in the Wild Dataset. Currently programming the neural network and optimizing the parameters involved including the layers, activation functions, and weights. Future plans include using the model to create a celebrity look-alike application.
 
 
+----------------------------------
+# Completed
 ## 🏀 NBA MVP Statistical Analysis
 - Python
 - Data Cleaning
@@ -62,7 +77,7 @@ Created a guided-project to scrape a single Amazon URL for its price, append its
 
 Created basic SQL queries to conduct an EDA on Covid Vaccinations.
 
-## 🪙 CoinMarkeyCap API Pull 
+## 💸 CoinMarkeyCap API Pull 
 - Python 
 - CoinMarketCap API
 - JSON
