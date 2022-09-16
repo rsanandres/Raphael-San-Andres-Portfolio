@@ -50,7 +50,7 @@ Created a guided-project to scrape a single Amazon URL for its price, append its
 
 Created basic SQL queries to conduct an EDA on Covid Vaccinations.
 
-## 🪙 Crypto Website API Pull 
+## 🪙 CoinMarkeyCap API Pull 
 - Python 
 - CoinMarketCap API
 - JSON
