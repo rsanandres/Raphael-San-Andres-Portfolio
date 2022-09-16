@@ -7,8 +7,7 @@
 About
 =============================
 
-My name is Raphael San Andres and I am a recent UCLA graduate where I got a B.S. in Statistics. At UCLA, I have had the opportunity to use statistical models to identify trends in data in Python and R as well as present my findings in various visual forms such as PowerPoints, Tableau, and RShiny applets.
-This is my portfolio for side projects that I have completed since graduating from UCLA.
+My name is Raphael San Andres and I am a recent UCLA graduate where I got a B.S. in Statistics. At UCLA, I have had the opportunity to use statistical models to identify trends in data in Python and R as well as present my findings in various visual forms such as PowerPoints, Tableau, and RShiny applets. I have also worked on creating Neural Networks, Natural Language Processing, and Machine Learning models which includes my completion of a Deep Learning Specialization from Coursera. This is my portfolio for side projects that I have completed since graduating from UCLA.
 
 
 ----------------------------------
