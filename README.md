@@ -23,7 +23,7 @@ Contents
 # In-Progress
 
 ## 🧠 Neural Network for Celebrity Face Classifier (LFW)
-### Progress: ![10%](https://progress-bar.dev/10)
+### Progress: ![20%](https://progress-bar.dev/10)
 
 - Python
 - Neural Networks
@@ -31,8 +31,10 @@ Contents
 - Keras, SKlearn, Numpy, Pandas
 - Computer Vision
 
+Current Issue: Inputting the images and labels into the model. Currently the model is created and I want to train for the hyperparameters after. The image data and labels are giving me some conversion issues.
 
 Creating and modeling a Neural Network in order to create a celebrity classifier using the Labeled Faces in the Wild Dataset. Currently programming the neural network and optimizing the parameters involved including the layers, activation functions, and weights. Future plans include using the model to create a celebrity look-alike application.
+
 
 
 ----------------------------------
