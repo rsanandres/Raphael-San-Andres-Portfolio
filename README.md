@@ -23,7 +23,7 @@ Contents
 # In-Progress
 
 ## 🧠 Neural Network for Celebrity Face Classifier (LFW)
-### Progress: ![20%](https://progress-bar.dev/10)
+### Progress: ![20%](https://progress-bar.dev/20)
 
 - Python
 - Neural Networks
