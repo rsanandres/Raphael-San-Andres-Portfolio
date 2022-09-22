@@ -23,18 +23,25 @@ Contents
 # In-Progress
 
 ## 🧠 Neural Network for Celebrity Face Classifier (LFW)
-### Progress: ![20%](https://progress-bar.dev/20)
+### Progress: ![50%](https://progress-bar.dev/50)
 
 - Python
-- Neural Networks
+- Neural Networks, HyperParameter Tuning (GridSearchCV)
 - Labeled Faces in the Wild Dataset (LFW)
-- Keras, SKlearn, Numpy, Pandas
+- Keras, SKlearn, Numpy, Pandas, Tensorflow, SciKeras, glob
 - Computer Vision
 
-Current Issue: Inputting the images and labels into the model. Currently the model is created and I want to train for the hyperparameters after. The image data and labels are giving me some conversion issues.
+Current Progress: Working on tuning the model with hyperparameter tuning using GridSearchCV. I am aware that GridSearchCV is not usually scalable to neural networks. I want to implement BayesianOptimization after GridSearch. Also looking to tune the layers.
 
-Creating and modeling a Neural Network in order to create a celebrity classifier using the Labeled Faces in the Wild Dataset. Currently programming the neural network and optimizing the parameters involved including the layers, activation functions, and weights. Future plans include using the model to create a celebrity look-alike application.
-
+Creating and modeling a Neural Network in order to create a celebrity classifier using the Labeled Faces in the Wild Dataset. Currently programming the neural network and optimizing the parameters involved including the layers, activation functions, and weights. Implemented models using Keras, Tensorflow, and SKlearn. Attempting to optimize for the following parameters:
+- Neurons
+- Batch Sizes
+- Activation Functions
+-  Optimizer
+- Learning Rate
+- Momentum
+- Epochs
+- Dropout Rate
 
 
 ----------------------------------
