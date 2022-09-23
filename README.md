@@ -31,7 +31,7 @@ Contents
 - Keras, SKlearn, Numpy, Pandas, Tensorflow, SciKeras, glob
 - Computer Vision
 
-Current Progress: Working on tuning the model with hyperparameter tuning using GridSearchCV. I am aware that GridSearchCV is not usually scalable to neural networks. I want to implement BayesianOptimization after GridSearch. Also looking to tune the layers.
+Current Progress: Working on tuning the model with hyperparameter tuning using GridSearchCV. I am aware that GridSearchCV is not usually scalable to neural networks. I want to implement BayesianOptimization after GridSearch. Also looking to tune the layers. I have created some models to some degrees of success but want to continue tuning them.
 
 Creating and modeling a Neural Network in order to create a celebrity classifier using the Labeled Faces in the Wild Dataset. Currently programming the neural network and optimizing the parameters involved including the layers, activation functions, and weights. Implemented models using Keras, Tensorflow, and SKlearn. Attempting to optimize for the following parameters:
 - Neurons
