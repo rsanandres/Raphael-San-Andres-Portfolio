@@ -25,13 +25,15 @@ Contents
 ## 🧠 Neural Network for Celebrity Face Classifier (LFW)
 ### Progress: ![50%](https://progress-bar.dev/50)
 
+[Labeled Faces in the Wild Dataset](http://vis-www.cs.umass.edu/lfw/)
+
 - Python
 - Neural Networks, HyperParameter Tuning (GridSearchCV)
 - Labeled Faces in the Wild Dataset (LFW)
 - Keras, SKlearn, Numpy, Pandas, Tensorflow, SciKeras, glob
 - Computer Vision
 
-Current Progress: Working on tuning the model with hyperparameter tuning using GridSearchCV. I am aware that GridSearchCV is not usually scalable to neural networks. I want to implement BayesianOptimization after GridSearch. Also looking to tune the layers. I have created some models to some degrees of success but want to continue tuning them.
+Current Progress: Working on tuning the model with hyperparameter tuning using GridSearchCV. I am aware that GridSearchCV is not usually scalable to neural networks. I want to implement BayesianOptimization after GridSearch. Also looking to tune the layers. I have created some models to some degrees of success but want to continue tuning them. Am currently running the models while I do other things.
 
 Creating and modeling a Neural Network in order to create a celebrity classifier using the Labeled Faces in the Wild Dataset. Currently programming the neural network and optimizing the parameters involved including the layers, activation functions, and weights. Implemented models using Keras, Tensorflow, and SKlearn. Attempting to optimize for the following parameters:
 - Neurons
@@ -43,6 +45,16 @@ Creating and modeling a Neural Network in order to create a celebrity classifier
 - Epochs
 - Dropout Rate
 
+## 💻 Twitch Recommendation System
+### Progress: ![10%](https://progress-bar.dev/10)
+
+[UCSD Twitch Dataset](https://cseweb.ucsd.edu/~jmcauley/datasets.html#twitch)
+
+- Python
+- Recommendation Systems, Collaborative Filtering
+- Numpy, K-Nearst Neighbors
+
+Current Progress: Working through an EDA of the Twitch dataset provided by UCSD. The data only has a few columns so I am making my own columns to further understand the data and the relationships between the viewers and streamers are. Planning to implement KNN as my model of choice. I am currently looking for other options but my options are limited due there only being three main features of the dataset: Streamer, User watching, and time period the User was watching the streamer. Data can be derived from these few things, but I cannot see past using KNN for time being.
 
 ----------------------------------
 # Completed
