@@ -23,7 +23,7 @@ Contents
 # In-Progress
 
 ## 🧠 Neural Network for Celebrity Face Classifier (LFW)
-### Progress: ![50%](https://progress-bar.dev/50)
+### Progress: ![75%](https://progress-bar.dev/75)
 
 [Labeled Faces in the Wild Dataset](http://vis-www.cs.umass.edu/lfw/)
 
