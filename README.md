@@ -52,7 +52,7 @@ Creating and modeling a Neural Network in order to create a celebrity classifier
 
 - Python
 - Recommendation Systems, Collaborative Filtering
-- Numpy, K-Nearst Neighbors
+- Numpy, K-Nearest Neighbors
 
 Current Progress: Working through an EDA of the Twitch dataset provided by UCSD. The data only has a few columns so I am making my own columns to further understand the data and the relationships between the viewers and streamers are. Planning to implement KNN as my model of choice. I am currently looking for other options but my options are limited due there only being three main features of the dataset: Streamer, User watching, and time period the User was watching the streamer. Data can be derived from these few things, but I cannot see past using KNN for time being.
 
