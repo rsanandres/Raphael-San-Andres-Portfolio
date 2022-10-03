@@ -46,7 +46,7 @@ Creating and modeling a Neural Network in order to create a celebrity classifier
 - Dropout Rate
 
 ## 💻 Twitch Recommendation System
-### Progress: ![10%](https://progress-bar.dev/10)
+### Progress: ![10%](https://progress-bar.dev/30)
 
 [UCSD Twitch Dataset](https://cseweb.ucsd.edu/~jmcauley/datasets.html#twitch)
 
@@ -58,6 +58,17 @@ Current Progress: Working through an EDA of the Twitch dataset provided by UCSD.
 
 ----------------------------------
 # Completed
+
+## 💬 Rbiot Discord Bot with Cohere.ai
+- Python
+- Discord Bot API, Cohere.ai API, Cohere.ai Finetuning Modeling
+- Embeddings, Classifications
+- Discord Bot Messaging and Commands
+
+Created a Discord Bot in Python that scraped messages from users, sends a message to a channel whenever a user gets online, and provides a command that takes in a message and outputs the user most likely to type that message. Data was cleaned inside of a Jupyter Notebook and the Discord Bot is hosted via local Python Scripts. Cohere.ai provided a finetuning modeling service that the Discord Bot calls to find the user most likely to type that message. 
+
+
+
 ## 🏀 NBA MVP Statistical Analysis
 - Python
 - Data Cleaning
