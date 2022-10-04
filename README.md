@@ -7,7 +7,18 @@
 About
 =============================
 
-My name is Raphael San Andres and I am a recent UCLA graduate where I got a B.S. in Statistics. At UCLA, I have had the opportunity to use statistical models to identify trends in data in Python and R as well as present my findings in various visual forms such as PowerPoints, Tableau, and RShiny applets. I have also worked on creating Neural Networks, Natural Language Processing, and Machine Learning models which includes my completion of a Deep Learning Specialization from Coursera. This is my portfolio for side projects that I have completed since graduating from UCLA.
+My name is Raphael San Andres and I am a recent UCLA graduate where I got a B.S. in Statistics. At UCLA, I have had the opportunity to use statistical models to identify trends in data in Python and R as well as present my findings in various visual forms such as PowerPoints, Tableau, and RShiny applets. I have also worked on creating Neural Networks, Natural Language Processing, and Machine Learning models which includes my completion of a Deep Learning Specialization from Coursera.
+
+I am passionate about data and the applications of data in the world. I love learning about different data techniques which include Deep Learning, Neural Networks, Machine Learning, Visualizations, and Application Creations. I believe that there is an extreme amount of data in the world and that can be utilized for a variety of tasks. I am most interested in the application and advancement of unsupervised learning in simulating more and more complex problems. I love working with data and believe that there is unlimited potential for human advancement that is still to be discovered in data. I hope that one day that the following creations can be made out of the advancement of data techniques:
+
+- Clothing Design recommendation based on needs, materials, and stylistic preferences
+- Suits/clothing with full body sensors that can simulate touch and feeling alongside VR/AR simulations
+- Advanced body prosthetics for natural human motion
+- (Not an application but) Acessibility to data models and techniques for the masses
+
+My ultimate goal is the advancement of unsupervised/supervised learning techniques that can provide supplements to everyday human life.
+
+This is my portfolio for side projects that I have completed since graduating from UCLA.
 
 
 ----------------------------------
@@ -22,29 +33,6 @@ Contents
 ----------------------------------
 # In-Progress
 
-## 🧠 Neural Network for Celebrity Face Classifier (LFW)
-### Progress: ![75%](https://progress-bar.dev/75)
-
-[Labeled Faces in the Wild Dataset](http://vis-www.cs.umass.edu/lfw/)
-
-- Python
-- Neural Networks, HyperParameter Tuning (GridSearchCV)
-- Labeled Faces in the Wild Dataset (LFW)
-- Keras, SKlearn, Numpy, Pandas, Tensorflow, SciKeras, glob
-- Computer Vision
-
-Current Progress: Working on tuning the model with hyperparameter tuning using GridSearchCV. I am aware that GridSearchCV is not usually scalable to neural networks. I want to implement BayesianOptimization after GridSearch. Also looking to tune the layers. I have created some models to some degrees of success but want to continue tuning them. Am currently running the models while I do other things.
-
-Creating and modeling a Neural Network in order to create a celebrity classifier using the Labeled Faces in the Wild Dataset. Currently programming the neural network and optimizing the parameters involved including the layers, activation functions, and weights. Implemented models using Keras, Tensorflow, and SKlearn. Attempting to optimize for the following parameters:
-- Neurons
-- Batch Sizes
-- Activation Functions
--  Optimizer
-- Learning Rate
-- Momentum
-- Epochs
-- Dropout Rate
-
 ## 💻 Twitch Recommendation System
 ### Progress: ![10%](https://progress-bar.dev/30)
 
@@ -58,6 +46,27 @@ Current Progress: Working through an EDA of the Twitch dataset provided by UCSD.
 
 ----------------------------------
 # Completed
+
+
+## 🧠 Neural Network for Celebrity Face Classifier (LFW)
+
+[Labeled Faces in the Wild Dataset](http://vis-www.cs.umass.edu/lfw/)
+
+- Python
+- Neural Networks, HyperParameter Tuning (GridSearchCV)
+- Labeled Faces in the Wild Dataset (LFW)
+- Keras, SKlearn, Numpy, Pandas, Tensorflow, SciKeras, glob
+- Computer Vision
+
+Created and modeled a Neural Network in order to create a celebrity classifier using the Labeled Faces in the Wild Dataset. Conducted an EDA of the dataset to find the distribution of the pictures as well as examples of the photos. Parsed the dataset to only look up people with 20+ photos of themselves (which resulted in 57 total people and 2923 images). Created Convolutional Neural Networks to classify the photos of the 57 people. Initial Models included Conv2D, MaxPooling, Flatten, and Dense layers. Used GridSearchCV to find number pf Neurons, Batch Sizes, Activation Functions, Optimizers, Learning Rates, Momentum, Epochs, and Dropout Rate. Final model implemented the tuned hyperparameteres with some adjustments based on results. 
+
+**Results:** \
+Using sparse categorical crossentropy for loss, the final model produced a ~0.45 validation accuracy and 2.47 validation loss. The model seems to have reach a valley as both validation accuracy and validation loss plateaued. 
+
+**Comments for next time:** 
+- George Bush dominated the dataset with 500+ images and Collin Powell had 200+. Normalizing the amounts of pictures per person would provide a more accurate model as well as a less biased result. 
+- The model seemed a little bit too complex and found itself overfitting towards the end. Optimizations by chaning some of the layers may have resulted in a better learning curve.
+
 
 ## 💬 Rbiot Discord Bot with Cohere.ai
 - Python
