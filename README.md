@@ -14,7 +14,7 @@ I am passionate about data and the applications of data in the world. I love lea
 - Clothing Design recommendation based on needs, materials, and stylistic preferences
 - Suits/clothing with full body sensors that can simulate touch and feeling alongside VR/AR simulations
 - Advanced body prosthetics for natural human motion
-- (Not an application but) Acessibility to data models and techniques for the masses
+- (Not an application but) Accessibility  to data models and techniques for the masses
 
 My ultimate goal is the advancement of unsupervised/supervised learning techniques that can provide supplements to everyday human life.
 
